@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes, { any } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Animated } from 'react-native';
 
@@ -11,7 +11,7 @@ export default class Helper extends PureComponent {
 
     disabled: PropTypes.bool,
 
-    style: Animated.Text.propTypes.style,
+    style: any, //Animated.Text.propTypes.style,
 
     baseColor: PropTypes.string,
     errorColor: PropTypes.string,
