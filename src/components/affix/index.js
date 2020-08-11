@@ -1,4 +1,4 @@
-import PropTypes { any } from 'prop-types';
+import PropTypes, { any } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Animated } from 'react-native';
 
